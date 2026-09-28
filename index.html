@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Teachers' Month | Sir Joel</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+
+        <div class="decor top-decor">
+            ✿　📚　✿
+        </div>
+
+        <p class="small-title">
+            A SPECIAL TRIBUTE TO
+        </p>
+
+        <h1>
+            Our Teacher
+        </h1>
+
+        <div class="line"></div>
+
+        <p class="subtitle">
+            Happy Teachers' Month!
+        </p>
+
+        <div class="decor bottom-decor">
+            🌿　♡　🌿
+        </div>
+
+    </header>
+
+
+    <!-- TEACHER SECTION -->
+    <main>
+
+        <section class="teacher-section">
+
+            <div class="side-flower left">
+                ✿
+            </div>
+
+            <div class="side-flower right">
+                ✿
+            </div>
+
+
+            <!-- Teacher Picture -->
+            <div class="photo-frame">
+
+                <div class="photo-inner">
+                    <img src="teacher-joel.jpeg" alt="Sir Joel">
+                </div>
+
+            </div>
+
+
+            <p class="dedication">
+                THIS PAGE IS DEDICATED TO
+            </p>
+
+            <h2>
+                Sir Joel
+            </h2>
+
+            <div class="small-line"></div>
+
+
+            <!-- Message -->
+            <div class="message-card">
+
+                <span class="quote">“</span>
+
+                <p>
+                    Dear Sir Joel,
+                </p>
+
+                <p>
+                    At first, we were a little nervous around you
+                    because you seemed like a very strict teacher.
+                    But as time passed and we got to know you better,
+                    we realized that behind that strict side is a very
+                    considerate, understanding, and wholesome teacher.
+                </p>
+
+                <p>
+                    Thank you for guiding us, being patient with us,
+                    and always encouraging us to do our best. We
+                    appreciate how you can be strict when needed
+                    while still being understanding and considerate
+                    toward your students.
+                </p>
+
+                <p>
+                    We are grateful not only for the lessons you teach
+                    us, but also for the values and experiences that
+                    we can carry with us beyond the classroom.
+                </p>
+
+                <p>
+                    <strong>
+                        Happy Teachers' Month, Sir Joel! 🌷
+                    </strong>
+                </p>
+
+                <p>
+                    Thank you for being a teacher who guides,
+                    inspires, and genuinely cares for his students.
+                    We truly appreciate you and everything you do
+                    for us. 💗
+                </p>
+
+                <span class="quote bottom">”</span>
+
+            </div>
+
+
+            <div class="decorations">
+                🌸　📖　🌸
+            </div>
+
+        </section>
+
+
+        <!-- THANK YOU SECTION -->
+        <section class="thank-you">
+
+            <p class="small-text">
+                WITH LOVE AND GRATITUDE
+            </p>
+
+            <h3>
+                Thank You,
+                <span>Sir Joel!</span>
+            </h3>
+
+            <p>
+                Your dedication makes a difference in our lives.
+            </p>
+
+            <div class="heart">
+                ♡
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            Made with appreciation and gratitude
+        </p>
+
+        <p>
+            Happy Teachers' Month! 🌷
+        </p>
+
+    </footer>
+
+
+    <!-- MUSIC BUTTON -->
+    <button id="musicButton" onclick="toggleMusic()">
+        🎵 Play Music
+    </button>
+
+
+    <script>
+
+        function toggleMusic() {
+
+            const music = document.getElementById("bgMusic");
+            const button = document.getElementById("musicButton");
+
+            if (music.paused) {
+
+                music.play();
+
+                button.innerHTML = "⏸ Pause Music";
+
+            } else {
+
+                music.pause();
+
+                button.innerHTML = "🎵 Play Music";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
