@@ -1,1 +1,506 @@
+* {
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #2a4421;
+    color: #feb5c6;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 570px;
+
+    background-color: #feb5c6;
+    color: #2a4421;
+
+    text-align: center;
+
+    padding: 70px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Decorations */
+
+.decor {
+    font-size: 28px;
+}
+
+.top-decor {
+    margin-bottom: 35px;
+}
+
+.bottom-decor {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+
+/* Small Title */
+
+.small-title {
+    font-family: Arial, sans-serif;
+
+    font-size: 12px;
+
+    letter-spacing: 5px;
+
+    font-weight: bold;
+
+    margin: 0 0 15px;
+}
+
+
+/* Main Title */
+
+.hero h1 {
+    font-size: 72px;
+
+    font-style: italic;
+
+    margin: 0;
+
+    line-height: 1.05;
+}
+
+
+/* Decorative Line */
+
+.line {
+    width: 90px;
+
+    height: 3px;
+
+    background-color: #2a4421;
+
+    margin: 30px 0 20px;
+}
+
+
+/* Subtitle */
+
+.subtitle {
+    font-family: Arial, sans-serif;
+
+    font-size: 16px;
+
+    letter-spacing: 2px;
+
+    margin: 0;
+}
+
+
+/* =========================
+   TEACHER SECTION
+========================= */
+
+.teacher-section {
+    min-height: 850px;
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+/* Side Decorations */
+
+.side-flower {
+    position: absolute;
+
+    font-size: 80px;
+
+    color: #feb5c6;
+
+    opacity: 0.25;
+}
+
+.side-flower.left {
+    left: 25px;
+    top: 80px;
+}
+
+.side-flower.right {
+    right: 25px;
+    bottom: 80px;
+}
+
+
+/* =========================
+   PHOTO
+========================= */
+
+.photo-frame {
+    width: 245px;
+    height: 245px;
+
+    margin: 0 auto 35px;
+
+    padding: 8px;
+
+    border: 2px solid #feb5c6;
+
+    border-radius: 50%;
+
+    position: relative;
+}
+
+
+/* Outer Circle */
+
+.photo-frame::before {
+    content: "";
+
+    position: absolute;
+
+    width: 265px;
+    height: 265px;
+
+    border: 1px solid #feb5c6;
+
+    border-radius: 50%;
+
+    top: -12px;
+    left: -12px;
+
+    opacity: 0.35;
+}
+
+
+/* Picture */
+
+.photo-inner {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    background-color: #feb5c6;
+}
+
+.photo-inner img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================
+   TEACHER NAME
+========================= */
+
+.dedication {
+    font-family: Arial, sans-serif;
+
+    font-size: 11px;
+
+    letter-spacing: 4px;
+
+    color: white;
+
+    margin-top: 25px;
+}
+
+
+.teacher-section h2 {
+    font-size: 52px;
+
+    font-style: italic;
+
+    color: #feb5c6;
+
+    margin: 10px 0;
+}
+
+
+/* Small Line */
+
+.small-line {
+    width: 60px;
+
+    height: 2px;
+
+    background-color: #feb5c6;
+
+    margin: 20px auto 35px;
+}
+
+
+/* =========================
+   MESSAGE CARD
+========================= */
+
+.message-card {
+    max-width: 700px;
+
+    margin: auto;
+
+    padding: 40px 50px;
+
+    background-color: #334f2a;
+
+    border: 1px solid rgba(254, 181, 198, 0.5);
+
+    position: relative;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+
+    border-radius: 8px;
+}
+
+
+.message-card p {
+    font-family: Arial, sans-serif;
+
+    color: white;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    margin: 15px 0;
+}
+
+
+/* Quote */
+
+.quote {
+    position: absolute;
+
+    top: 25px;
+    left: 20px;
+
+    font-size: 65px;
+
+    color: #feb5c6;
+}
+
+.quote.bottom {
+    top: auto;
+    left: auto;
+
+    right: 20px;
+    bottom: 5px;
+}
+
+
+/* Decorations */
+
+.decorations {
+    font-size: 28px;
+
+    margin-top: 35px;
+}
+
+
+/* =========================
+   THANK YOU
+========================= */
+
+.thank-you {
+    background-color: #feb5c6;
+
+    color: #2a4421;
+
+    text-align: center;
+
+    padding: 75px 20px;
+}
+
+
+.small-text {
+    font-family: Arial, sans-serif;
+
+    font-size: 11px;
+
+    letter-spacing: 4px;
+
+    font-weight: bold;
+}
+
+
+.thank-you h3 {
+    font-size: 40px;
+
+    font-style: italic;
+
+    margin: 20px 0;
+}
+
+
+.thank-you h3 span {
+    display: block;
+
+    font-size: 52px;
+}
+
+
+.thank-you p {
+    font-family: Arial, sans-serif;
+
+    font-size: 15px;
+}
+
+
+.heart {
+    font-size: 42px;
+
+    margin-top: 20px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #2a4421;
+
+    color: #feb5c6;
+
+    text-align: center;
+
+    padding: 25px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 13px;
+}
+
+footer p {
+    margin: 7px;
+}
+
+
+/* =========================
+   MUSIC BUTTON
+========================= */
+
+#musicButton {
+    position: fixed;
+
+    right: 20px;
+    bottom: 20px;
+
+    z-index: 100;
+
+    background-color: #feb5c6;
+
+    color: #2a4421;
+
+    border: 2px solid #2a4421;
+
+    border-radius: 30px;
+
+    padding: 13px 20px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+
+    transition: 0.3s;
+}
+
+
+#musicButton:hover {
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero h1 {
+        font-size: 52px;
+    }
+
+    .small-title {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+    }
+
+    .photo-frame {
+        width: 190px;
+        height: 190px;
+    }
+
+    .photo-frame::before {
+        width: 210px;
+        height: 210px;
+
+        top: -12px;
+        left: -12px;
+    }
+
+    .teacher-section h2 {
+        font-size: 42px;
+    }
+
+    .message-card {
+        padding: 30px 25px;
+    }
+
+    .message-card p {
+        font-size: 14px;
+    }
+
+    .thank-you h3 {
+        font-size: 30px;
+    }
+
+    .thank-you h3 span {
+        font-size: 40px;
+    }
+
+    .side-flower {
+        font-size: 50px;
+    }
+
+    #musicButton {
+        right: 15px;
+        bottom: 15px;
+    }
+
+}
