@@ -8,8 +8,11 @@ html {
 
 body {
     margin: 0;
+
     background-color: #2a4421;
+
     color: #feb5c6;
+
     font-family: Georgia, "Times New Roman", serif;
 }
 
@@ -19,9 +22,11 @@ body {
 ========================= */
 
 .hero {
+
     min-height: 570px;
 
     background-color: #feb5c6;
+
     color: #2a4421;
 
     text-align: center;
@@ -29,11 +34,15 @@ body {
     padding: 70px 20px;
 
     display: flex;
+
     flex-direction: column;
+
     justify-content: center;
+
     align-items: center;
 
     position: relative;
+
     overflow: hidden;
 }
 
@@ -41,15 +50,19 @@ body {
 /* Decorations */
 
 .decor {
+
     font-size: 28px;
 }
 
 .top-decor {
+
     margin-bottom: 35px;
 }
 
 .bottom-decor {
+
     margin-top: 30px;
+
     font-size: 24px;
 }
 
@@ -57,6 +70,7 @@ body {
 /* Small Title */
 
 .small-title {
+
     font-family: Arial, sans-serif;
 
     font-size: 12px;
@@ -72,6 +86,7 @@ body {
 /* Main Title */
 
 .hero h1 {
+
     font-size: 72px;
 
     font-style: italic;
@@ -82,9 +97,10 @@ body {
 }
 
 
-/* Decorative Line */
+/* Line */
 
 .line {
+
     width: 90px;
 
     height: 3px;
@@ -98,6 +114,7 @@ body {
 /* Subtitle */
 
 .subtitle {
+
     font-family: Arial, sans-serif;
 
     font-size: 16px;
@@ -108,11 +125,13 @@ body {
 }
 
 
+
 /* =========================
    TEACHER SECTION
 ========================= */
 
 .teacher-section {
+
     min-height: 850px;
 
     padding: 80px 20px;
@@ -125,9 +144,18 @@ body {
 }
 
 
+/* Different background for second teacher */
+
+.sir-joel {
+
+    background-color: #263d20;
+}
+
+
 /* Side Decorations */
 
 .side-flower {
+
     position: absolute;
 
     font-size: 80px;
@@ -138,14 +166,19 @@ body {
 }
 
 .side-flower.left {
+
     left: 25px;
+
     top: 80px;
 }
 
 .side-flower.right {
+
     right: 25px;
+
     bottom: 80px;
 }
+
 
 
 /* =========================
@@ -153,7 +186,9 @@ body {
 ========================= */
 
 .photo-frame {
+
     width: 245px;
+
     height: 245px;
 
     margin: 0 auto 35px;
@@ -171,11 +206,13 @@ body {
 /* Outer Circle */
 
 .photo-frame::before {
+
     content: "";
 
     position: absolute;
 
     width: 265px;
+
     height: 265px;
 
     border: 1px solid #feb5c6;
@@ -183,6 +220,7 @@ body {
     border-radius: 50%;
 
     top: -12px;
+
     left: -12px;
 
     opacity: 0.35;
@@ -192,7 +230,9 @@ body {
 /* Picture */
 
 .photo-inner {
+
     width: 100%;
+
     height: 100%;
 
     border-radius: 50%;
@@ -203,11 +243,14 @@ body {
 }
 
 .photo-inner img {
+
     width: 100%;
+
     height: 100%;
 
     object-fit: cover;
 }
+
 
 
 /* =========================
@@ -215,6 +258,7 @@ body {
 ========================= */
 
 .dedication {
+
     font-family: Arial, sans-serif;
 
     font-size: 11px;
@@ -228,6 +272,7 @@ body {
 
 
 .teacher-section h2 {
+
     font-size: 52px;
 
     font-style: italic;
@@ -241,6 +286,7 @@ body {
 /* Small Line */
 
 .small-line {
+
     width: 60px;
 
     height: 2px;
@@ -251,11 +297,13 @@ body {
 }
 
 
+
 /* =========================
    MESSAGE CARD
 ========================= */
 
 .message-card {
+
     max-width: 700px;
 
     margin: auto;
@@ -275,6 +323,7 @@ body {
 
 
 .message-card p {
+
     font-family: Arial, sans-serif;
 
     color: white;
@@ -287,12 +336,14 @@ body {
 }
 
 
-/* Quote */
+/* Quotes */
 
 .quote {
+
     position: absolute;
 
     top: 25px;
+
     left: 20px;
 
     font-size: 65px;
@@ -301,21 +352,29 @@ body {
 }
 
 .quote.bottom {
+
     top: auto;
+
     left: auto;
 
     right: 20px;
+
     bottom: 5px;
 }
 
 
-/* Decorations */
+
+/* =========================
+   DECORATIONS
+========================= */
 
 .decorations {
+
     font-size: 28px;
 
     margin-top: 35px;
 }
+
 
 
 /* =========================
@@ -323,6 +382,7 @@ body {
 ========================= */
 
 .thank-you {
+
     background-color: #feb5c6;
 
     color: #2a4421;
@@ -334,6 +394,7 @@ body {
 
 
 .small-text {
+
     font-family: Arial, sans-serif;
 
     font-size: 11px;
@@ -345,6 +406,7 @@ body {
 
 
 .thank-you h3 {
+
     font-size: 40px;
 
     font-style: italic;
@@ -354,13 +416,15 @@ body {
 
 
 .thank-you h3 span {
+
     display: block;
 
-    font-size: 52px;
+    font-size: 45px;
 }
 
 
 .thank-you p {
+
     font-family: Arial, sans-serif;
 
     font-size: 15px;
@@ -368,10 +432,12 @@ body {
 
 
 .heart {
+
     font-size: 42px;
 
     margin-top: 20px;
 }
+
 
 
 /* =========================
@@ -379,6 +445,7 @@ body {
 ========================= */
 
 footer {
+
     background-color: #2a4421;
 
     color: #feb5c6;
@@ -393,8 +460,10 @@ footer {
 }
 
 footer p {
+
     margin: 7px;
 }
+
 
 
 /* =========================
@@ -402,9 +471,11 @@ footer p {
 ========================= */
 
 #musicButton {
+
     position: fixed;
 
     right: 20px;
+
     bottom: 20px;
 
     z-index: 100;
@@ -434,8 +505,10 @@ footer p {
 
 
 #musicButton:hover {
+
     transform: translateY(-3px);
 }
+
 
 
 /* =========================
@@ -445,61 +518,79 @@ footer p {
 @media (max-width: 600px) {
 
     .hero {
+
         min-height: 500px;
     }
 
     .hero h1 {
+
         font-size: 52px;
     }
 
     .small-title {
+
         font-size: 10px;
+
         letter-spacing: 3px;
     }
 
     .subtitle {
+
         font-size: 13px;
     }
 
     .photo-frame {
+
         width: 190px;
+
         height: 190px;
     }
 
     .photo-frame::before {
+
         width: 210px;
+
         height: 210px;
 
         top: -12px;
+
         left: -12px;
     }
 
     .teacher-section h2 {
+
         font-size: 42px;
     }
 
     .message-card {
+
         padding: 30px 25px;
     }
 
     .message-card p {
+
         font-size: 14px;
     }
 
     .thank-you h3 {
+
         font-size: 30px;
     }
 
     .thank-you h3 span {
-        font-size: 40px;
+
+        font-size: 35px;
     }
 
     .side-flower {
+
         font-size: 50px;
     }
 
     #musicButton {
+
         right: 15px;
+
         bottom: 15px;
     }
 
